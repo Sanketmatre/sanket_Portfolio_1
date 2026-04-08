@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About | Dhawal Lamba</title>
+
+  <meta name="description" content="About Dhawal Lamba – AI/ML student, developer, Google Student Ambassador, and passionate builder." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="custom-cursor"></div>
+  <!-- Vanta.js Background Container (persists across page transitions) -->
+  <div id="ambient-bg">
+    <div class="ambient-blob ambient-blob-1"></div>
+    <div class="ambient-blob ambient-blob-2"></div>
+  </div>
+
+  <!-- Barba.js Wrapper -->
+  <div data-barba="wrapper">
+    <div data-barba="container" data-barba-namespace="about">
+
+      <!-- HEADER -->
+      <header class="navbar" role="banner">
+        <div class="logo">DL</div>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="about-page">
+
+        <!-- ABOUT HERO -->
+        <section class="about-hero reveal container narrow">
+          <h1>About Me</h1>
+          <p class="about-intro emphasis">
+            I'm <strong>Dhawal Lamba</strong> — a builder at heart, a developer by practice,
+            and an AI/ML enthusiast by evolution.
+          </p>
+        </section>
+
+      <!-- About Ribbon Marquee -->
+      <div class="skills-ribbon reveal delay-1">
+        <div class="ribbon-track">
+          <span>LEARNING</span><span>•</span>
+          <span>BUILDING</span><span>•</span>
+          <span>GROWING</span><span>•</span>
+          <span>ADAPTING</span><span>•</span>
+          <span>EXPERIMENTING</span><span>•</span>
+          <span>LEARNING</span><span>•</span>
+          <span>BUILDING</span><span>•</span>
+          <span>GROWING</span><span>•</span>
+          <span>ADAPTING</span><span>•</span>
+          <span>EXPERIMENTING</span><span>•</span>
+          <span>LEARNING</span><span>•</span>
+          <span>BUILDING</span><span>•</span>
+          <span>GROWING</span><span>•</span>
+          <span>ADAPTING</span><span>•</span>
+          <span>EXPERIMENTING</span><span>•</span>
+        </div>
+      </div>
+
+        <!-- JOURNEY -->
+        <section class="about-section reveal container">
+          <h2>My Journey</h2>
+          <p>
+            My interest in technology started early — computers, programming,
+            and understanding how things work behind the screen always fascinated me.
+            I wasn't chasing trends; I was chasing curiosity.
+          </p>
+
+          <p>
+            I explored development from the ground up — frontend, backend, logic,
+            and real-world problem solving. Building things gave me clarity,
+            confidence, and direction.
+          </p>
+
+          <p class="muted">
+            Artificial Intelligence came into my journey not as a replacement,
+            but as an enhancement. AI became an add-on to my existing love for
+            development — a way to build smarter, more impactful systems.
+          </p>
+        </section>
+
+        <!-- MINDSET -->
+        <section class="about-section reveal delay-1 container">
+          <h2>How I Think & Build</h2>
+          <ul class="mindset-list">
+            <li>Learning by building, not just consuming</li>
+            <li>Understanding fundamentals before tools</li>
+            <li>Adapting fast to new technologies</li>
+            <li>Focusing on real-world impact</li>
+          </ul>
+        </section>
+
+        <!-- LEADERSHIP -->
+        <section class="about-section reveal delay-2 container">
+          <h2>Leadership & Community</h2>
+          <p>
+            As a <strong>Google Student Ambassador</strong>, I represent Google on campus,
+            help students explore modern tools, and contribute to building
+            a strong tech culture.
+          </p>
+
+          <p>
+            I enjoy sharing knowledge, collaborating with peers,
+            and growing together as a community.
+          </p>
+        </section>
+
+        <!-- PROJECT PHILOSOPHY -->
+        <section class="about-section reveal delay-3 container">
+          <h2>What My Projects Say About Me</h2>
+          <p>
+            From intelligent systems like gesture-controlled interfaces,
+            to web platforms and interactive experiences,
+            my projects reflect experimentation, learning, and consistency.
+          </p>
+
+          <p>
+            Each project represents a step forward — technically and mentally.
+          </p>
+        </section>
+
+        <!-- SIGNATURE -->
+        <section class="about-signature reveal delay-3 container">
+          — Dhawal
+        </section>
+
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer" role="contentinfo">
+        <div class="footer-inner">
+          <p>© 2025 Dhawal Lamba | Built with passion & code</p>
+        </div>
+      </footer>
+
+    </div>
+    <!-- End Barba Container -->
+  </div>
+  <!-- End Barba Wrapper -->
+
+  <button id="theme-toggle" class="theme-toggle floating">☀️</button>
+  <!-- Page Transition Loader -->
+  <div id="page-transition-overlay"></div>
+
+
+
+  <!-- GSAP -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+  <!-- Barba.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.js"></script>
+
+  <!-- Main JS -->
+  <script defer src="main.js"></script>
+</body>
+</html>
+

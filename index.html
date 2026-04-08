@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhawal Lamba | AI/ML Portfolio</title>
+
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <meta name="description"
+    content="Dhawal Lamba – B.Tech CSE (AI/ML), Google Student Ambassador. Personal portfolio, projects, skills, and resume." />
+  <meta name="keywords" content="Dhawal Lamba, AI ML Portfolio, Google Student Ambassador, Parul University" />
+
+  <meta property="og:title" content="Dhawal Lamba | AI/ML Portfolio" />
+  <meta property="og:description"
+    content="Passionate about building intelligent AI/ML systems, scalable web solutions, and leading impactful tech communities." />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+  <meta property="og:url" content="https://dhawallamba.com" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dhawal Lamba | AI/ML Portfolio" />
+  <meta name="twitter:description"
+    content="Passionate about building intelligent AI/ML systems, scalable web solutions, and leading impactful tech communities." />
+  <meta name="twitter:image" content="assets/images/og-image.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dhawal Lamba",
+    "jobTitle": "AI/ML Engineer",
+    "description": "B.Tech CSE (AI & ML), Google Student Ambassador, passionate about AI/ML systems and tech communities.",
+    "url": "https://dhawallamba.com",
+    "sameAs": [
+      "https://linkedin.com/in/dhawal-lamba",
+      "https://github.com/mythakadhawal"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome (consistent link used across pages) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="custom-cursor"></div>
+  <!-- Ambient CSS Background -->
+  <div id="ambient-bg">
+    <div class="ambient-blob ambient-blob-1"></div>
+    <div class="ambient-blob ambient-blob-2"></div>
+  </div>
+
+  <!-- Barba.js Wrapper -->
+  <div data-barba="wrapper">
+    <div data-barba="container" data-barba-namespace="home">
+      <!-- Header Section -->
+      <header class="navbar" role="banner">
+        <div class="logo" aria-label="Dhawal Lamba">DL</div>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" class="active" data-hover="Home">Home</a></li>
+            <li><a href="about.html" data-hover="About">About</a></li>
+            <li><a href="skills.html" data-hover="Skills">Skills</a></li>
+            <li><a href="projects.html" data-hover="Projects">Projects</a></li>
+            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+          </ul>
+          
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main role="main">
+        <section class="hero">
+
+          <!-- Left Content -->
+          <div class="hero-left">
+            <h1>
+              <span class="accent">Dhawal Lamba</span>
+            </h1>
+
+            <!-- Typing Text -->
+            <h2 class="typing">
+              <span id="typed-text" aria-live="polite"></span>
+            </h2>
+
+            <p class="hero-desc">
+              I build intelligent, scalable software systems. Delivering robust value through clean code, modern web
+              architecture, and applied machine learning. Ready to drive impact.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="Resume.pdf" class="btn primary" data-hover="Download Resume" download><i
+                  class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+              <a href="projects.html" class="btn secondary" data-hover="View Projects">View Projects</a>
+            </div>
+          </div>
+
+          <!-- Right Visual (Minimal 3D Element) -->
+          <div class="hero-right" id="hero-3d-container" aria-hidden="true">
+            <canvas id="hero-3d-canvas"></canvas>
+          </div>
+
+        </section>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-indicator" aria-hidden="true" data-animate="bounce">
+          ↓
+        </div>
+
+        <!-- About Preview Section -->
+        <section class="about-preview reveal container">
+          <h2>About Me</h2>
+          <p class="about-text">
+            I'm a <strong>B.Tech Computer Science (AI & ML)</strong> student at Parul University,
+            driven by curiosity for intelligent systems and real-world problem solving.
+            From building ML-powered projects to leading tech communities as a
+            <strong>Google Student Ambassador</strong>, I focus on learning by building
+            and sharing knowledge.
+          </p>
+          <div style="text-align: center;">
+            <a href="about.html" class="btn secondary">
+              Read Full Story →
+            </a>
+          </div>
+        </section>
+
+        <!-- Skills Preview Section -->
+        <section class="skills-preview reveal container">
+          <h2>Skills & Focus Areas</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>AI & Machine Learning</h3>
+              <p>Python, NumPy, Pandas, Scikit-learn, TensorFlow (Basics), Model Evaluation</p>
+            </div>
+            <div class="skill-card">
+              <h3>Programming & Core CS</h3>
+              <p>Python, C, C++, Data Structures, Algorithms, System Design</p>
+            </div>
+            <div class="skill-card">
+              <h3>Web & Tools</h3>
+              <p>HTML, CSS, JavaScript, Git, GitHub, Linux, VS Code</p>
+            </div>
+            <div class="skill-card">
+              <h3>Leadership & Community</h3>
+              <p>Google Student Ambassador, Tech Communities, Event Coordination</p>
+            </div>
+          </div>
+          <div style="text-align: center;">
+            <a href="skills.html" class="btn secondary">
+              View All Skills →
+            </a>
+          </div>
+        </section>
+
+        <!-- Projects Highlight -->
+        <section class="projects-preview reveal container">
+          <h2>Featured Projects</h2>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <h3>Hand Gesture Controlled System</h3>
+              <p class="project-desc">
+                A computer vision based system that uses hand gesture recognition
+                to control system actions, focusing on real-time interaction.
+              </p>
+              <p class="project-tech">
+                <strong>Tech:</strong> Python, OpenCV, Machine Learning
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn secondary">GitHub</a>
+                <a href="projects.html" class="btn primary">Case Study</a>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <h3>Pokémon Data Explorer API</h3>
+              <p class="project-desc">
+                A full-stack application built with Streamlit and Python, providing dynamic
+                data retrieval via a robust backend API architecture.
+              </p>
+              <p class="project-tech">
+                <strong>Tech:</strong> Python, APIs, Frontend Integrations
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/mythakadhawal" class="btn secondary" target="_blank"
+                  rel="noopener noreferrer">
+                  GitHub
+                </a>
+                <a href="projects.html" class="btn primary">Details</a>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <h3>Academyth Site</h3>
+              <p class="project-desc">
+                A website prototype basically, and is for a
+                startup point of view.
+              </p>
+              <p class="project-tech">
+                <strong>Tech:</strong> Python, Pandas, Scikit-learn
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn secondary">GitHub</a>
+                <a href="projects.html" class="btn primary">Explore</a>
+              </div>
+            </article>
+          </div>
+
+          <div style="text-align: center;">
+            <a href="projects.html" class="btn secondary">
+              View All Projects →
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Footer Section -->
+      <footer class="footer" role="contentinfo">
+        <div class="footer-inner">
+          <div class="social-icons" aria-hidden="false">
+            <a href="https://www.linkedin.com/in/dhawal-lamba" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn" data-hover="LinkedIn">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/mythakadhawal" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              data-hover="GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+          <p>© 2025 Dhawal Lamba | Built with passion & code</p>
+        </div>
+      </footer>
+    </div>
+    <!-- End Barba Container -->
+  </div>
+  <!-- End Barba Wrapper -->
+  <button id="theme-toggle" class="theme-toggle floating">☀️</button>
+  <!-- Page Transition Loader -->
+  <div id="page-transition-overlay"></div>
+
+  <!-- Three.js for Minimalist Hero Graphic -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+  <!-- GSAP -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+  <!-- Barba.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.js"></script>
+
+  <!-- Main JS -->
+  <script defer src="main.js"></script>
+
+  <noscript>
+    <style>
+      .typing {
+        display: none;
+      }
+
+      .hero-desc::after {
+        content: " (AI / ML Engineer)";
+        font-weight: 500;
+        color: var(--accent-primary);
+      }
+    </style>
+  </noscript>
+
+</body>
+
+</html>
